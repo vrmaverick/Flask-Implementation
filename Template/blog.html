@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .blog-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .blog-content {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hello {{name}} Welcome To This Website  !!!!! </h1>
+        <p>Continue Writing your Blogs <b>id : {{blog_id}}</b></p>
+    </header>
+    <div class="container">
+        <h2 class="blog-title">{{blog_name}}</h2>
+        <p class="blog-content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo sed libero volutpat interdum. In hac habitasse platea dictumst. Suspendisse potenti. Fusce at laoreet odio. Proin vel velit sit amet nulla convallis eleifend. Nulla facilisi. Sed euismod justo eget tortor suscipit, vel blandit massa tristique.
+        </p>
+    </div>
+</body>
+</html>
