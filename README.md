@@ -20,6 +20,47 @@ The Examples show how we can route between different HTML files and can also imp
 - Flask
 
 ```bash
-# Example:
-pip install flask
+#on PowerShell
+Set-ExecutionPolicy RemoteSigned
 ```
+This is temporary once done with Flask we can set it back to restricted
+
+```bash
+# Clone the repository
+git clone https://github.com/vrmaverick/Flask_Implementation.git
+
+# Navigate to the project directory
+cd Flask_Implementation
+
+```
+
+Once in the directory
+
+```bash
+# For Windows PowerShell
+.venv\Scripts\Activate.ps1
+```
+
+```bash
+#install Flask
+python -m pip install Flask
+```
+
+```bash
+Set the object to the main file
+$env : Flask_APP = "<name_of your_file>.py"
+$env : Debug = True #for auto update after changing
+flask run
+```
+
+This project is licensed under the MIT License - see the (LICENSE) file for details.
+
+## Please feel free to contact me or give me any suggestion
+
+# Enjoy Coding !!!!
+
+
+
+
+
+
