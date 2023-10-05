@@ -23,7 +23,7 @@ The Examples show how we can route between different HTML files and can also imp
 #on PowerShell
 Set-ExecutionPolicy RemoteSigned
 ```
-This is temporary once done with Flask we can set it back to restricted
+This is temporary once done with Flask we can set it back to "restricted"
 
 ```bash
 # Clone the repository
@@ -51,6 +51,12 @@ Set the object to the main file
 $env : Flask_APP = "<name_of your_file>.py"
 $env : Debug = True #for auto update after changing
 flask run
+```
+# Once done with the work ExcecutionPolicy must be changed for Security
+
+```bash
+#on PowerShell
+Set-ExecutionPolicy Restricted
 ```
 
 This project is licensed under the MIT License - see the (LICENSE) file for details.
